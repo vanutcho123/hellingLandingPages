@@ -1,0 +1,40 @@
+.designers {
+  background-color: $clr-primary;
+  padding-top: 160px;
+  &-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 140px;
+  }
+  &-content {
+    flex: 1;
+  }
+  &-title {
+    font-family: $ff-secondary;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: calc(76 / 70);
+    font-style: normal;
+    margin-bottom: 30px;
+  }
+  &-img {
+    flex: 0.9;
+  }
+  &-text {
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: calc(34 / 24);
+    margin-bottom: 25px;
+  }
+  &-all {
+    display: block;
+    color: $clr-secondary;
+
+    font-size: 24px;
+    line-height: calc(30 / 24);
+    font-style: normal;
+    margin-top: 15px;
+  }
+}
